@@ -11,22 +11,15 @@ DeepSP.py is is a python script that requires python software and some python mo
 
 The python modules that need to be installed are listed in requirements.txt, they can be installed via the command line interface as follows
 ```shell
+$pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
 $ pip install -r requirements.txt
 ```
 If any python modules fail to install, you can install them one by one with the following command
 ```shell
-$ pip install pandas
-$ pip install numpy
-$ pip install sklearn
-$ pip install argparse
-$ pip install time
-$ pip install copy
-$ pip install os
-$ pip install warnings
-$ pip install conda install pytorch torchvision torchaudio cpuonly -c pytorch
-# or 
-$ pip3 install torch torchvision torchaudio
-```
+$ pip install pandas==1.1.3
+$ pip install numpy==1.19.2
+$ pip install scikit-learn==0.23.2
+$ pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
 
 
 
