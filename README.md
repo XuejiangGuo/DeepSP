@@ -70,3 +70,9 @@ There is a running example in the example.jpg image。
 $ python DeepSP.py -f hirst2018.csv -r 3
 ```
 <img src="example.jpg">
+
+### Reference
+Wang B, Zhang X, Xu C, Han X, Wang Y, Situ C, Li Y, Guo X. DeepSP: A Deep Learning Framework for Spatial Proteomics. J Proteome Res. 2023 Jul 7;22(7):2186-2198. doi: 10.1021/acs.jproteome.2c00394. 
+
+If there are any problems, please contact me.
+Bing Wang, E-mail: wangbing587@163.com
