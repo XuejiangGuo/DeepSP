@@ -1,5 +1,6 @@
 # DeepSP
 DeepSP: A Deep Learning Framework for Spatial Proteomics
+
 DeepSP is a novel deep learning framework for PSL prediction in spatial proteomics, and its workflow is described in Figure 1. Firstly, the levels of each protein in different subcellular fractions are transformed into a feature map of difference matrix as input. Secondly, the feature map is processed by the CNN layers and the attention module to extract features. Lastly, the features are processed by the dense (full connected) and output layers with the focal loss to predict PSL.
 <img src="workflow.png">
 
